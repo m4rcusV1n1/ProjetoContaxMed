@@ -1,0 +1,389 @@
+.corDaFonte1{color:Black;}
+.corDaFonte2{color:Black;}
+.corDaFonte3{color:Black;}
+.corDaFonte4{color:Black;}
+.corDaFonte5{color:Black;}
+.corDaFonte6{color:Black;}
+.corDaFonte7{color:Black;}
+.corDeFundo1{background-color:#FFFFFF;}
+.corDeFundo2{background-color:#FFFFFF;}
+.corDeFundo3{background-color:#FEFEFE;}
+.corDeFundo4{background-color:#FDFDFD;}
+.corDeFundo5{background-color:#FBFBFB;}
+.corDeFundo6{background-color:#F8F8F8;}
+.corDeFundo7{background-color:#EBEBEB;}
+#barraFerramentas{-moz-user-select:none;background-image:url(BarraTarefas/back_barra.png);background-repeat:repeat-x;bottom:-1px;color:Black;font-size:10px;font-weight:bold;left:0px;position:absolute;width:100%;z-index:1000;}
+#barraFerramentas .atalho{cursor:pointer;float:right;}
+#barraFerramentas .atalho img{height:25px;width:25px;}
+#barraFerramentas .atalhos {bottom:0px;margin:2px;position:absolute;right:1px;width:90px;}
+#barraFerramentas .itens{min-height:31px;padding:0px;}
+#barraFerramentas .over{background-image:url(BarraTarefas/barra_tarefa.png);background-color:#FDFDFD;background-repeat:repeat-x;color:Black;text-decoration:underline;height:28px;width:5px;width:5px;}
+#barraFerramentas .tarefa{cursor:pointer;float:left;height:27px;padding:0px 0px 0px 6px;overflow:hidden;width:192px;margin:2px 0 0;}
+#barraFerramentas .iconeModoTradicional{cursor:pointer;float:right;height:25px;}
+#barraFerramentas .tarefa img{float:left;height:22px;margin-right:6px;margin-top:2px;width:24px;}
+#barraFerramentas .tarefa span{line-height:30px;margin-top:4px;overflow:hidden;vertical-align:middle;}
+body{font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10px;background-color:#fff;color:Black;width:100%;height:100%;margin:0px;}
+form{width:100%;height:100%;}
+.body1{background-image:url(Fundos/fundo1.jpg);}
+.body2{background-image:url(Fundos/fundo2.jpg);}
+.body3{background-image:url(Fundos/fundo3.jpg);}
+.body4{background-image:url(Fundos/fundo4.jpg);}
+.body5{background-image:url(Fundos/fundo5.jpg);}
+.body6{background-image:url(Fundos/fundo6.jpg);}
+.body7{background-image:url(Fundos/fundo7.jpg);}
+.body8{background-image:url(Fundos/fundo8.jpg);}
+.body9{background-image:url(Fundos/fundo9.jpg);}
+.body10{background-image:url(Fundos/fundo10.jpg);}
+.body11{background-image:url(Fundos/fundo11.jpg);}
+.body12{background-image:url(Fundos/fundo12.jpg);}
+.body13{background-image:url(Fundos/fundo13.jpg);}
+.body14{background-image:url(Fundos/fundo14.jpg);}
+.body15{background-image:url(Fundos/fundo15.jpg);}
+.body16{background-image:url(Fundos/fundo16.jpg);}
+.icone_interno_avancar_desabilitado{background-image:url(MenuIcones/avancar_interno_dis.png);background-repeat:no-repeat;cursor:default;float:right;height:15px;width:10px;}
+.icone_interno_avancar_habilitado{background-image:url(MenuIcones/avancar_interno.png);background-repeat:no-repeat;float:right;height:15px;width:10px;}
+.icone_interno_voltar_desabilitado{background-image:url(MenuIcones/voltar_interno_dis.png);background-repeat:no-repeat;cursor:default;float:left;height:15px;width:10px;}
+.icone_interno_voltar_habilitado{background-image:url(MenuIcones/voltar_interno.png);background-repeat:no-repeat;float:left;height:15px;width:10px;}
+.ssm_divareaobjeto{height:120px;left:0px;margin-top:45px;position:absolute;top:3px;width:399px;z-index:1003;}
+.ssm_divobjeto{cursor:pointer;color:Black;float:left;height:49px;width:199px;overflow:hidden;vertical-align:middle;}
+.ssm_divobjeto img{float:left;height:40px;width:40px;margin:2px;padding:2px;}
+.ssm_divobjeto span.texto-curto{line-height:42px;}
+.ssm_divobjeto span.texto-longo{line-height:14px;}
+.ssm_divobjeto_over{background-color:#FDFDFD;color:Black;opacity:.80;}
+.ssm_divmae{-moz-user-select:none;height:415px;position:absolute;z-index:1001;width:420px;}
+.ssm_divpaginar{height:18px;left:6px;opacity:.80;position:absolute;top:396px;z-index:1006;width:385px;}
+.ssm_divpaginar_acoes{background-repeat:no-repeat;cursor:pointer;width:10px;}
+.ssm_divtoolbararea{background-image:url(MenuIcones/fundo_menu.png);background-color:#FBFBFB;height:30px;left:0px;position:absolute;top:0px;width:399px;z-index:1005;}
+.ssm_divtoolbaricone{background-position:0px 0px;background-repeat:no-repeat;cursor:pointer;float:right;margin-top:5px;margin-right:10px;}
+.ssm_divtoolbartexto{color:Black;height:30px;float:left;font-size:10px;font-variant:normal;font-weight:bold;line-height:30px;text-align:left;text-indent:8px;vertical-align:middle;overflow:hidden;width:270px;}
+.ssm_divtransparente{background-color:#F8F8F8;height:415px;opacity:.70;width:399px;z-index:1002;}
+.ssm_icone_avancar_habilitado{background-image:url(MenuIcones/avancar.png);background-repeat:no-repeat;height:20px;width:20px;}
+.ssm_icone_avancar_desabilitado{background-image:url(MenuIcones/avancar_dis.png);background-repeat:no-repeat;height:20px;width:20px;}
+.ssm_icone_inicio{background-image:url(MenuIcones/home.png);background-repeat:no-repeat;height:20px;width:23px;}
+.ssm_icone_voltar_habilitado{background-image:url(MenuIcones/voltar.png);background-repeat:no-repeat;height:20px;width:20px;}
+.ssm_icone_voltar_desabilitado{background-image:url(MenuIcones/voltar_dis.png);background-repeat:no-repeat;height:20px;width:20px;}
+.ssm_icone_sair{background-image:url(MenuIcones/sair.png);background-repeat:no-repeat;height:20px;width:24px;}
+.ssm_migalhadepao{background-color:#FBFBFB;color:Black;cursor:pointer;font-size:10px;font-weight:bold;font-variant:normal;left:0px;line-height:15px;height:17px;opacity:.80;position:absolute;text-align:left;text-indent:4px;top:30px;vertical-align:middle;width:399px;z-index:3;}
+.ssm_divexterna_left{background-image:url(MenuIcones/aba_menu_left.png);background-repeat:no-repeat;cursor:pointer;height:141px;left:399px;position:absolute;top:0px;width:25px;z-index:1004;}
+.ssm_divmaecorpo_left{}
+.ssm_divexterna_right{background-image:url(MenuIcones/aba_menu_right.png);background-repeat:no-repeat;cursor:pointer;height:141px;right:399px;position:absolute;top:0px;width:25px;z-index:1004;}
+.ssm_divmaecorpo_right{right:0px;position:absolute;}
+.ssm_divexterna_top{background-image:url(MenuIcones/aba_menu_top.png);background-repeat:no-repeat;cursor:pointer;height:25px;top:415px;position:absolute;left:0px;width:141px;z-index:1004;}
+.ssm_divmaecorpo_top{top:0px;position:absolute;}
+.ssm_divexterna_bottom{background-image:url(MenuIcones/aba_menu_bottom.png);background-repeat:no-repeat;background-position:center bottom;cursor:pointer;height:25px;bottom:415px;position:absolute;left:0px;width:141px;z-index:1004;}
+.ssm_divmaecorpo_bottom{bottom:0px;position:absolute;}
+.painel_servicos_bottom{width:100%;position:absolute;left:0px;bottom:0px;z-index:99;}
+.painel_servicos_bottom .tituloAgrupador{-moz-user-select:none;background-image:url(MenuServicos/fundo_barra.png);color:Black;height:20px;line-height:20px;width:100%;font-size:12px;font-weight:bold;padding:1px 1px 1px 20px;margin-bottom:4px;background-size:100%;background-repeat:no-repeat;}
+.painel_servicos_bottom .container{position:absolute;width:100%;overflow:auto;overflow-x:hidden;margin-top:35px;}
+.painel_servicos_bottom .container .content_container{}
+.painel_servicos_bottom .container .header{}
+.painel_servicos_bottom .container .header .icon{float:left;height:12px;margin:4px 0px 0px 4px;overflow:hidden;width:12px;}
+.painel_servicos_bottom .container .header .show_hide{background-image:url(MenuServicos/show_hide.png);background-repeat:no-repeat;cursor:pointer;float:left;height:8px;margin:6px 0px 0px 4px;overflow:hidden;width:8px;}
+.painel_servicos_bottom .container .header .hide{background-image:url(MenuServicos/show.png);background-repeat:no-repeat;cursor:pointer;float:left;height:8px;margin:6px 0px 0px 4px;overflow:hidden;width:8px;}
+.painel_servicos_bottom .container .header .title{color:Black;float:left;margin-left:6px;overflow:hidden;}
+.painel_servicos_bottom .container .header_container {-moz-user-select:none;background-image:url(MenuServicos/fundo_barra.png);background-repeat:repeat-y;background-color:#F8F8F8;height:20px;line-height:20px;vertical-align:middle;min-width:80px;width:100%;}
+.painel_servicos_bottom .container .root{border:0pt none;color:Black;margin-bottom:2px;font-size:11px;font-style:normal;font-variant:normal;font-weight:bold;width:auto;}
+.painel_servicos_bottom .fechado .status{background-image:url(MenuServicos/status_abre_bottom.png);background-position:0px 0px;}
+.painel_servicos_bottom .fundo{background-color:#F8F8F8;height:200px;opacity:.70;position:absolute;width:100%;margin-top:35px;}
+.painel_servicos_bottom .guia{background-image:url(MenuServicos/guia_servicos_bottom.png);background-repeat:no-repeat;height:35px;top:0px;position:absolute;width:200px;}
+.painel_servicos_bottom .raiz{height:235px;width:100%;}
+.painel_servicos_bottom .fechado{height:35px;}
+.painel_servicos_bottom .status{background-image:url(MenuServicos/status_bottom.png);background-position:0px 0px;background-repeat:no-repeat;cursor:pointer;height:25px;left:10px;position:absolute;top:5px;width:20px;}
+.painel_servicos_bottom .frame {float:left;width:20%;min-width:250px;}
+.painel_servicos_top{width:100%;position:absolute;left:0px;top:0px;z-index:99;}
+.painel_servicos_top .tituloAgrupador{-moz-user-select:none;background-image:url(MenuServicos/fundo_barra.png);color:Black;height:20px;line-height:20px;width:100%;font-size:12px;font-weight:bold;padding:1px 1px 1px 20px;background-size:100%;background-repeat:no-repeat;}
+.painel_servicos_top .container{position:absolute;width:100%;margin-bottom:35px;bottom:0px;overflow:auto;overflow-x:hidden;height:200px;}
+.painel_servicos_top .container .content_container{}
+.painel_servicos_top .container .header{}
+.painel_servicos_top .container .header .icon{float:left;height:12px;margin:4px 0px 0px 4px;overflow:hidden;width:12px;}
+.painel_servicos_top .container .header .show_hide{background-image:url(MenuServicos/show_hide.png);background-repeat:no-repeat;cursor:pointer;float:left;height:8px;margin:6px 0px 0px 4px;overflow:hidden;width:8px;}
+.painel_servicos_top .container .header .hide{background-image:url(MenuServicos/show.png);background-repeat:no-repeat;cursor:pointer;float:left;height:8px;margin:6px 0px 0px 4px;overflow:hidden;width:8px;}
+.painel_servicos_top .container .header .title{color:Black;float:left;margin-left:6px;overflow:hidden;}
+.painel_servicos_top .container .header_container {-moz-user-select:none;background-image:url(MenuServicos/fundo_barra.png);background-repeat:repeat-y;background-color:#F8F8F8;height:20px;line-height:20px;vertical-align:middle;width:100%;min-width:80px;}
+.painel_servicos_top .container .root{border:0pt none;color:Black;margin-top:2px;font-size:11px;font-style:normal;font-variant:normal;font-weight:bold;width:auto;}
+.painel_servicos_top .fechado .status{background-image:url(MenuServicos/status_abre_top.png);background-position:0px 0px;}
+.painel_servicos_top .fundo{background-color:#F8F8F8;height:200px;opacity:.70;position:absolute;width:100%;margin-bottom:35px;bottom:0px;}
+.painel_servicos_top .guia{background-image:url(MenuServicos/guia_servicos_top.png);background-repeat:no-repeat;height:35px;bottom:0px;position:absolute;width:200px;}
+.painel_servicos_top .raiz{height:235px;width:100%;}
+.painel_servicos_top .fechado{height:35px;}
+.painel_servicos_top .status{background-image:url(MenuServicos/status_top.png);background-position:0px 0px;background-repeat:no-repeat;cursor:pointer;height:25px;left:10px;position:absolute;bottom:5px;width:20px;}
+.painel_servicos_top .frame {float:left;width:20%;min-width:250px;}
+.secao_top {bot:35px;}
+.painel_servicos_left{height:100%;position:absolute;left:0px;top:0px;z-index:99;}
+.painel_servicos_left .tituloAgrupador{-moz-user-select:none;background-image:url(MenuServicos/fundo_barra.png);background-repeat:repeat-y;color:Black;height:20px;line-height:20px;vertical-align:middle;width:100%;font-size:12px;font-weight:bold;padding:1px;margin-bottom:4px;text-align:center;}
+.painel_servicos_left .container{right:35px;position:absolute;width:320px;}
+.painel_servicos_left .container .content_container{}
+.painel_servicos_left .container .header{}
+.painel_servicos_left .container .header .icon{float:left;height:12px;margin:4px 0px 0px 4px;overflow:hidden;width:12px;}
+.painel_servicos_left .container .header .show_hide{background-image:url(MenuServicos/show_hide.png);background-repeat:no-repeat;cursor:pointer;float:left;height:8px;margin:6px 0px 0px 4px;overflow:hidden;width:8px;}
+.painel_servicos_left .container .header .hide{background-image:url(MenuServicos/show.png);background-repeat:no-repeat;cursor:pointer;float:left;height:8px;margin:6px 0px 0px 4px;overflow:hidden;width:8px;}
+.painel_servicos_left .container .header .title{color:Black;float:left;margin-left:6px;overflow:hidden;}
+.painel_servicos_left .container .header_container {-moz-user-select:none;background-image:url(MenuServicos/fundo_barra.png);background-repeat:repeat-y;background-color:#F8F8F8;height:20px;line-height:20px;vertical-align:middle;width:100%;}
+.painel_servicos_left .container .root{border:0pt none;color:Black;margin-bottom:2px;font-size:11px;font-style:normal;font-variant:normal;font-weight:bold;width:auto;}
+.painel_servicos_left .fechado .status{background-image:url(MenuServicos/status_abre_left.png);background-position:0px 0px;}
+.painel_servicos_left .fundo{background-color:#F8F8F8;height:100%;right:35px;opacity:.70;position:absolute;width:320px;}
+.painel_servicos_left .guia{background-image:url(MenuServicos/guia_servicos_left.png);background-repeat:no-repeat;height:200px;right:0px;position:absolute;width:35px;}
+.painel_servicos_left .raiz{height:100%;width:355px;}
+.painel_servicos_left .fechado{width:35px;}
+.painel_servicos_left .status{background-image:url(MenuServicos/status_left.png);background-position:0px 0px;background-repeat:no-repeat;cursor:pointer;height:20px;right:5px;position:absolute;top:10px;width:25px;}
+.painel_servicos{height:100%;position:absolute;right:0px;top:0px;z-index:99;}
+.painel_servicos .tituloAgrupador{-moz-user-select:none;background-image:url(MenuServicos/fundo_barra.png);background-repeat:repeat-y;color:Black;height:20px;line-height:20px;vertical-align:middle;width:100%;font-size:12px;font-weight:bold;padding:1px;margin-bottom:4px;text-align:center;}
+.painel_servicos .container{left:35px;position:absolute;width:320px;}
+.painel_servicos .container .content_container{}
+.painel_servicos .container .header{}
+.painel_servicos .container .header .icon{float:left;height:12px;margin:4px 0px 0px 4px;overflow:hidden;width:12px;}
+.painel_servicos .container .header .show_hide{background-image:url(MenuServicos/show_hide.png);background-repeat:no-repeat;cursor:pointer;float:left;height:8px;margin:6px 0px 0px 4px;overflow:hidden;width:8px;}
+.painel_servicos .container .header .hide{background-image:url(MenuServicos/show.png);background-repeat:no-repeat;cursor:pointer;float:left;height:8px;margin:6px 0px 0px 4px;overflow:hidden;width:8px;}
+.painel_servicos .container .header .title{color:Black;float:left;margin-left:6px;overflow:hidden;}
+.painel_servicos .container .header_container {-moz-user-select:none;background-image:url(MenuServicos/fundo_barra.png);background-repeat:repeat-y;background-color:#F8F8F8;height:20px;line-height:20px;vertical-align:middle;width:100%;}
+.painel_servicos .container .root{border:0pt none;color:Black;margin-bottom:2px;font-size:11px;font-style:normal;font-variant:normal;font-weight:bold;width:auto;}
+.painel_servicos .fechado .status{background-image:url(MenuServicos/status_abre.png);background-position:0px 0px;}
+.painel_servicos .fundo{background-color:#F8F8F8;height:100%;left:35px;opacity:.70;position:absolute;width:320px;}
+.painel_servicos .guia{background-image:url(MenuServicos/guia_servicos.png);background-repeat:no-repeat;height:200px;left:0px;position:absolute;width:35px;}
+.painel_servicos .raiz{height:100%;width:355px;}
+.painel_servicos .fechado{width:35px;}
+.painel_servicos .status{background-image:url(MenuServicos/status.png);background-position:0px 0px;background-repeat:no-repeat;cursor:pointer;height:20px;left:5px;position:absolute;top:10px;width:25px;}
+ul.tabList{display:block;margin:0px;padding:0px;}
+ul.tabList .selected{background-image:url(MenuServicos/fundo_aba_selecionado.png);background-repeat:no-repeat;background-position:0px 0px;color:Black;height:16px;width:103px;}
+ul.tabList li{-moz-user-select:none;background-image:url(MenuServicos/fundo_aba.png);background-repeat:no-repeat;background-position:0px 0px;cursor:pointer;float:left;height:16px;line-height:16px;list-style:none none outside;overflow:hidden;width:104px;color:Black;}
+ul.tabList li div{margin-left:5px;max-width:80px;overflow:hidden;width:80px;}
+.tabSet{}
+.tabSet .tabContent{border-top:1px solid #cccccc;clear:both;overflow:hidden;}
+.top_draggable, .bottom_draggable{cursor:move;}
+.default_content{background:#FFFFFF;color:#DDDDDD;font-size:10px;overflow:auto;height:100%;}
+.default_close{background:transparent url(Window/close.png) no-repeat;cursor:pointer;height:17px;position:absolute;right:5px;top:3px;width:25px;z-index:1000;}
+.default_n{-moz-user-select:none;background:transparent url(Window/top_mid.png) repeat-x;height:28px;}
+.default_e{background:transparent url(Window/center_right.gif);width:4px;}
+.default_maximize{background-image:url(Window/maximize.png);background-repeat:no-repeat;background-position:0px 0px;cursor:pointer;height:17px;position:absolute;top:3px;right:30px;width:25px;z-index:1000;}
+.default_minimize{background-image:url(Window/minimize.png);background-repeat:no-repeat;background-position:0px 0px;cursor:pointer;height:17px;opacity:0.9;position:absolute;right:55px;top:3px;width:25px;z-index:1000;}
+.default_ne{background-image:url(Window/top_right.png);background-repeat:no-repeat;background-position:0px 0px;height:28px;width:12px;}
+.default_nw{background-image:url(Window/top_left.png);background-repeat:no-repeat;background-position:0px 0px;height:28px;width:16px;}
+.default_s{background:transparent url(Window/bottom_mid.gif) repeat-x 0 0;height:24px;}
+.default_se{background:transparent url(Window/bottom_right.gif) no-repeat 0 0;height:24px;width:12px;}
+.default_sizer{cursor:nw-resize;background:transparent url(Window/sizer.gif) no-repeat 0 0;height:24px;width:15px;}
+.default_sw{background:transparent url(Window/bottom_left.gif) no-repeat 0 0;height:24px;width:16px;}
+.default_title{color:Black;height:14px;float:left;font-size:12px;text-align:left;width:100%;}
+.default_w{background:transparent url(Window/center_left.gif) repeat-y 0 0;width:7px;}
+.dialog{display:block;position:absolute;}
+.dialog *{margin:0px;padding:0px;}
+.dialog table{border-collapse:collapse;border-spacing:0;width:100%;}
+.dialog td, th{padding:0;}
+.default_wired_frame{background:#fff;border:dashed 1px #000000;}
+.wired_frame{opacity:0.45;}
+#modal_overlay{background-color:#000000;opacity:0.6;}
+.modal_frame_full{height:80%;width:98%;}
+.modal_frame_full table{border-collapse:collapse;border-spacing:0;width:100%;}
+.modal_frame_full td, th{padding:0;}
+.modal_frame{height:450px;width:740px;}
+.modal_frame table{border-collapse:collapse;border-spacing:0;width:100%;}
+.modal_frame td, th{padding:0;}
+.desktop_feeds{overflow-x:none;overflow-y:auto;height:200px;}
+.desktop_feeds li{clear:both;line-height:1em;margin:0px;padding:2px 5px 0px 0px;}
+.desktop_feeds li a{color:#444;display:block;padding:4px 3px 5px 3px;text-decoration:none;}
+.desktop_feeds li a:hover{background-color:#FEFEFE;color:Black;text-decoration:underline;}
+.desktop_feeds ul{font-size:11px;list-style-type:none;list-style-position:outside;margin:0px;padding:0px;}
+.caixa_dialogo{background:#fff;font-size:11px;width:340px;}
+.caixa_dialogo .body_container{margin-bottom:20px;min-height:40px;padding-top:10px;}
+.caixa_dialogo .body_container .body{color:#000;}
+.caixa_dialogo .cancel_button{background:transparent url(CaixaDialogo/dialog_actions.gif) no-repeat scroll -77px 0px;height:30px;margin-left:8px;width:80px;}
+.caixa_dialogo .foot_container{clear:both;margin-bottom:8px;text-align:center;width:100%;}
+.caixa_dialogo .ok_button{background:transparent url(CaixaDialogo/dialog_actions.gif) no-repeat scroll 1px 0px;height:30px;margin-right:8px;width:80px;}
+.caixa_dialogo .title_container{cursor:default;font-size:11px;font-weight:bold;padding:4px;text-align:center;text-transform:uppercase;}
+.confirm, .info{border:2px solid #000;}
+.confirm .icon{background:#FFFFFF url(CaixaDialogo/dialog_icons.gif) no-repeat -50px 0px;}
+.confirm .icon, .info .icon{float:left;height:80px;margin-left:5px;margin-right:12px;width:50px;}
+.confirm .title_container{background:#38577e;padding:8px;color:#FFFFFF;margin-bottom:6px;}
+.info .icon{background:#FFFFFF url(CaixaDialogo/dialog_icons.gif) no-repeat 0px 0px;}
+.info .title_container{background:transparent url(CaixaDialogo/dialog_background.jpg) repeat-x 0px 0px;color:#FFFFFF;margin-bottom:6px;}
+.pasta_content{background:#fff;color:Black;width:100%;height:100%;}
+.atalho_normal, .atalho_selecionado{cursor:pointer;font-size:11px;}
+.atalho_selecionado{background-color:#FCFCFC;color:Black;opacity:0.8;text-decoration:underline;}
+.atalho_icone{text-align:center;float:left;width:70px;overflow:hidden;padding:5px;}
+.atalho_icone span{display:block;}
+.atalho_icone img{height:40px;width:40px;}
+.atalho_lado_a_lado{width:220px;height:42px;line-height:42px;float:left;overflow:hidden;}
+.atalho_lado_a_lado img{float:left;height:40px;width:40px;padding:0px 2px;}
+.atalho_lista{height:20px;line-height:20px;white-space:nowrap;width:auto;overflow:visible;}
+.atalho_lista img{float:left;height:20px;width:20px;padding:0px 2px;}
+.popup_menu{background-image:url(MenuContextual/contextBg.png);background-color:#FBFBFB;background-repeat:repeat-y;font-size:11px;border:solid 1px #000;width:180px;z-index:30;opacity:0.65;z-index:1001;-moz-user-select:none;}
+.popup_menu div.item{font-weight:bold;height:20px;line-height:20px;vertical-align:middle;padding:2px;cursor:pointer;}
+.popup_menu div.item a{font-size:11px;color:Black;text-decoration:none;}
+.popup_menu div.item a:hover{color:Black;text-decoration:underline;}
+.popup_menu div.item div.icone{width:25px;height:20px;float:left;margin-right:4px;}
+.gerenciador_tarefas{font-size:12px;clear:both;}
+.gerenciador_tarefas tr{height:35px;color:#000000;}
+.info_erro{width:100%;}
+.gerenciador_tarefas .ferramentas{height:30px;}
+.gerenciador_tarefas .cabecalho{background-color:#FFFFFF;color:#000000;height:35px;font-weight:bold;clear:right;}
+.gerenciador_tarefas .titulo{background-image:url(GerenciadorTarefas/fundo_titulo.png);background-repeat:repeat-x;height:26px;line-height:26px;vertical-align:middle;color:Black;font-weight:bold;text-align:center;}
+.gerenciador_tarefas .titulo .fechar{cursor:pointer;position:absolute;right:5px;top:2px;}
+.gerenciador_tarefas .lista_tarefas{overflow-y:scroll;overflow-x:hidden;}
+.gerenciador_tarefas .lista_tarefas .tarefa{color:#333333;font-weight:normal;}
+.gerenciador_tarefas .lista_tarefas .tarefa_nome{color:#333333;font-weight:normal;vertical-align:top;padding-top:8px;padding-left:8px;overflow:hidden;}
+.gerenciador_tarefas .lista_tarefas .tarefa_status{color:#333333;font-weight:normal;vertical-align:top;padding-top:8px;overflow:hidden;}
+.gerenciador_tarefas .lista_tarefas .concluida{color:#006600;font-weight:bold;background:#D3E5D3;}
+.gerenciador_tarefas .lista_tarefas .concluida .informacoes{color:#333333;font-weight:normal;}
+.gerenciador_tarefas .lista_tarefas .erro{color:#990000;font-weight:bold;background:#EDD3D3;}
+.gerenciador_tarefas .lista_tarefas .cancelada{color:#FFB15B;font-weight:bold;background:#FFE5D3;}
+.gerenciador_tarefas .lista_tarefas .aguardando_cancelamento{color:#FFB15B;font-weight:bold;background:#FFF1E8;}
+.gerenciador_tarefas .lista_tarefas .aguardando_execucao{color:#003366;font-weight:bold;background:#D7DFE8;}
+.gerenciador_tarefas .ferramentas .acoes{background-image:url(GerenciadorTarefas/acoes.png);background-repeat:repeat-x;height:20px;width:20px;float:right;margin-top:4px;margin-right:10px;cursor:pointer;}
+.gerenciador_tarefas .ferramentas .atualizar{background-position:0px 0px;}
+.gerenciador_tarefas .ferramentas .cancelar{background-position:-20px 0px;}
+.gerenciador_tarefas .ferramentas .limpar{background-position:-40px -0px;}
+.gerenciador_tarefas .ferramentas .sair{background-position:-60px 0px;}
+.gerenciador_tarefas .ferramentas .status{font-weight:bold;margin:4px;float:left;color:#000;}
+.gerenciador_tarefas .progresso{width:100px;height:15px;background:#bbbbbb;padding:1px;}
+.gerenciador_tarefas .progresso .barra{background-image:url(GerenciadorTarefas/fundo_progresso.png);background-repeat:repeat-x;height:100%;width:0px;}
+.gerenciador_tarefas .progresso .texto{color:#FFF;font-size:11px;font-weight:bold;padding-left:4px;text-transform:capitalize;}
+.gerenciador_tr{background-color:#FFFFFF;}
+.gerenciador_tr_cinza{background-color:#FFFFFF;}
+.concluido_icone{background-image:url(GerenciadorTarefas/completo_icone.gif);background-repeat:no-repeat;background-position:center;height:30px;}
+.ae_icone{background-image:url(GerenciadorTarefas/ag_execu.gif);background-repeat:no-repeat;background-position:center;height:30px;}
+.limparTarefa{background-image:url(GerenciadorTarefas/limpar_gt.gif);background-repeat:no-repeat;background-position:center;height:25px;width:25px;cursor:pointer;margin-right:10px;float:right;}
+.cancelarTarefa{background-image:url(GerenciadorTarefas/cancelar_gt.gif);background-repeat:no-repeat;background-position:center;height:25px;width:25px;cursor:pointer;margin-right:10px;float:right;}
+.exec_icone_01{background-image:url(GerenciadorTarefas/execu_1.gif);background-repeat:no-repeat;background-position:center;height:30px;line-height:30px;font-size:11px;font-weight:bold;text-align:center;}
+.exec_icone_02{background-image:url(GerenciadorTarefas/execu_2.gif);background-repeat:no-repeat;background-position:center;height:30px;line-height:30px;font-size:11px;font-weight:bold;text-align:center;}
+.exec_icone_03{background-image:url(GerenciadorTarefas/execu_3.gif);background-repeat:no-repeat;background-position:center;height:30px;line-height:30px;font-size:11px;font-weight:bold;text-align:center;}
+.exec_icone_04{background-image:url(GerenciadorTarefas/execu_4.gif);background-repeat:no-repeat;background-position:center;height:30px;line-height:30px;font-size:11px;font-weight:bold;text-align:center;}
+.exec_icone_05{background-image:url(GerenciadorTarefas/execu_5.gif);background-repeat:no-repeat;background-position:center;height:30px;line-height:30px;font-size:11px;font-weight:bold;text-align:center;}
+.exec_icone_06{background-image:url(GerenciadorTarefas/execu_6.gif);background-repeat:no-repeat;background-position:center;height:30px;line-height:30px;font-size:11px;font-weight:bold;text-align:center;}
+.exec_icone_07{background-image:url(GerenciadorTarefas/execu_7.gif);background-repeat:no-repeat;background-position:center;height:30px;line-height:30px;font-size:11px;font-weight:bold;text-align:center;}
+.exec_icone_08{background-image:url(GerenciadorTarefas/execu_8.gif);background-repeat:no-repeat;background-position:center;height:30px;line-height:30px;font-size:11px;font-weight:bold;text-align:center;}
+.erro_icone_01{background-image:url(GerenciadorTarefas/acancel_1.gif);background-repeat:no-repeat;background-position:center;height:30px;line-height:30px;font-size:10px;font-weight:bold;text-align:center;color:#ffffff;}
+.erro_icone_02{background-image:url(GerenciadorTarefas/acancel_2.gif);background-repeat:no-repeat;background-position:center;height:30px;line-height:30px;font-size:10px;font-weight:bold;text-align:center;color:#ffffff;}
+.erro_icone_03{background-image:url(GerenciadorTarefas/acancel_3.gif);background-repeat:no-repeat;background-position:center;height:30px;line-height:30px;font-size:10px;font-weight:bold;text-align:center;color:#ffffff;}
+.erro_icone_04{background-image:url(GerenciadorTarefas/acancel_4.gif);background-repeat:no-repeat;background-position:center;height:30px;line-height:30px;font-size:10px;font-weight:bold;text-align:center;color:#ffffff;}
+.erro_icone_05{background-image:url(GerenciadorTarefas/acancel_5.gif);background-repeat:no-repeat;background-position:center;height:30px;line-height:30px;font-size:10px;font-weight:bold;text-align:center;color:#ffffff;}
+.erro_icone_06{background-image:url(GerenciadorTarefas/acancel_6.gif);background-repeat:no-repeat;background-position:center;height:30px;line-height:30px;font-size:10px;font-weight:bold;text-align:center;color:#ffffff;}
+.erro_icone_07{background-image:url(GerenciadorTarefas/acancel_7.gif);background-repeat:no-repeat;background-position:center;height:30px;line-height:30px;font-size:10px;font-weight:bold;text-align:center;color:#ffffff;}
+.erro_icone_08{background-image:url(GerenciadorTarefas/acancel_8.gif);background-repeat:no-repeat;background-position:center;height:30px;line-height:30px;font-size:10px;font-weight:bold;text-align:center;color:#ffffff;}
+.nr_icone_01{background-image:url(GerenciadorTarefas/aexec_1.gif);background-repeat:no-repeat;background-position:center;height:30px;line-height:30px;font-size:11px;font-weight:bold;text-align:center;}
+.nr_icone_02{background-image:url(GerenciadorTarefas/aexec_2.gif);background-repeat:no-repeat;background-position:center;height:30px;line-height:30px;font-size:11px;font-weight:bold;text-align:center;}
+.nr_icone_03{background-image:url(GerenciadorTarefas/aexec_3.gif);background-repeat:no-repeat;background-position:center;height:30px;line-height:30px;font-size:11px;font-weight:bold;text-align:center;}
+.nr_icone_04{background-image:url(GerenciadorTarefas/aexec_4.gif);background-repeat:no-repeat;background-position:center;height:30px;line-height:30px;font-size:11px;font-weight:bold;text-align:center;}
+.nr_icone_05{background-image:url(GerenciadorTarefas/aexec_5.gif);background-repeat:no-repeat;background-position:center;height:30px;line-height:30px;font-size:11px;font-weight:bold;text-align:center;}
+.nr_icone_06{background-image:url(GerenciadorTarefas/aexec_6.gif);background-repeat:no-repeat;background-position:center;height:30px;line-height:30px;font-size:11px;font-weight:bold;text-align:center;}
+.nr_icone_07{background-image:url(GerenciadorTarefas/aexec_7.gif);background-repeat:no-repeat;background-position:center;height:30px;line-height:30px;font-size:11px;font-weight:bold;text-align:center;}
+.nr_icone_08{background-image:url(GerenciadorTarefas/aexec_8.gif);background-repeat:no-repeat;background-position:center;height:30px;line-height:30px;font-size:11px;font-weight:bold;text-align:center;}
+.cancel_icone_01{background-image:url(GerenciadorTarefas/aguar_cancel_1.gif);background-repeat:no-repeat;background-position:center;height:30px;line-height:30px;font-size:11px;font-weight:bold;text-align:center;}
+.cancel_icone_02{background-image:url(GerenciadorTarefas/aguar_cancel_2.gif);background-repeat:no-repeat;background-position:center;height:30px;line-height:30px;font-size:11px;font-weight:bold;text-align:center;}
+.cancel_icone_03{background-image:url(GerenciadorTarefas/aguar_cancel_3.gif);background-repeat:no-repeat;background-position:center;height:30px;line-height:30px;font-size:11px;font-weight:bold;text-align:center;}
+.cancel_icone_04{background-image:url(GerenciadorTarefas/aguar_cancel_4.gif);background-repeat:no-repeat;background-position:center;height:30px;line-height:30px;font-size:11px;font-weight:bold;text-align:center;}
+.cancel_icone_05{background-image:url(GerenciadorTarefas/aguar_cancel_5.gif);background-repeat:no-repeat;background-position:center;height:30px;line-height:30px;font-size:11px;font-weight:bold;text-align:center;}
+.cancel_icone_06{background-image:url(GerenciadorTarefas/aguar_cancel_6.gif);background-repeat:no-repeat;background-position:center;height:30px;line-height:30px;font-size:11px;font-weight:bold;text-align:center;}
+.cancel_icone_07{background-image:url(GerenciadorTarefas/aguar_cancel_7.gif);background-repeat:no-repeat;background-position:center;height:30px;line-height:30px;font-size:11px;font-weight:bold;text-align:center;}
+.cancel_icone_08{background-image:url(GerenciadorTarefas/aguar_cancel_8.gif);background-repeat:no-repeat;background-position:center;height:30px;line-height:30px;font-size:11px;font-weight:bold;text-align:center;}
+.ac_icone_01{background-image:url(GerenciadorTarefas/aguar_cancel_1.gif);background-repeat:no-repeat;background-position:center;height:30px;line-height:30px;font-size:11px;font-weight:bold;text-align:center;}
+.ac_icone_02{background-image:url(GerenciadorTarefas/aguar_cancel_2.gif);background-repeat:no-repeat;background-position:center;height:30px;line-height:30px;font-size:11px;font-weight:bold;text-align:center;}
+.ac_icone_03{background-image:url(GerenciadorTarefas/aguar_cancel_3.gif);background-repeat:no-repeat;background-position:center;height:30px;line-height:30px;font-size:11px;font-weight:bold;text-align:center;}
+.ac_icone_04{background-image:url(GerenciadorTarefas/aguar_cancel_4.gif);background-repeat:no-repeat;background-position:center;height:30px;line-height:30px;font-size:11px;font-weight:bold;text-align:center;}
+.ac_icone_05{background-image:url(GerenciadorTarefas/aguar_cancel_5.gif);background-repeat:no-repeat;background-position:center;height:30px;line-height:30px;font-size:11px;font-weight:bold;text-align:center;}
+.ac_icone_06{background-image:url(GerenciadorTarefas/aguar_cancel_6.gif);background-repeat:no-repeat;background-position:center;height:30px;line-height:30px;font-size:11px;font-weight:bold;text-align:center;}
+.ac_icone_07{background-image:url(GerenciadorTarefas/aguar_cancel_7.gif);background-repeat:no-repeat;background-position:center;height:30px;line-height:30px;font-size:11px;font-weight:bold;text-align:center;}
+.ac_icone_08{background-image:url(GerenciadorTarefas/aguar_cancel_8.gif);background-repeat:no-repeat;background-position:center;height:30px;line-height:30px;font-size:11px;font-weight:bold;text-align:center;}
+.painel_de_atalhos{-moz-user-select:none;padding:2px;}
+.painel_de_atalhos .atalho{cursor:pointer;height:40px;padding:2px;vertical:middle;display:table;}
+.painel_de_atalhos .atalho img{float:left;height:40px;margin-right:4px;width:40px;}
+.painel_de_atalhos .atalho span{display:table-cell;height:40px;line-height:14px;overflow:hidden;vertical-align:middle;}
+.painel_de_atalhos .atalho2{cursor:pointer;height:20px;padding:2px;vertical:middle;display:table;}
+.painel_de_atalhos .atalho2 img{float:left;height:20px;margin-right:4px;width:20px;}
+.painel_de_atalhos .atalho2 span{display:table-cell;height:20px;line-height:7px;overflow:hidden;vertical-align:middle;}
+.painel_de_atalhos .paginacao{padding:4px;height:16px;}
+.painel_de_atalhos .paginacao .anterior{float:right;cursor:pointer;margin-right:8px;}
+.painel_de_atalhos .paginacao .proximo{float:right;cursor:pointer;margin-right:8px;}
+.RadMenuMW a.rmLink:hover, .RadMenuMW a.rmFocused, .RadMenuMW a.rmSelected{background-color:#FFFFFF !important;}
+.RadMenuMW .rmVertical a.rmExpanded, .RadMenuMW a.rmExpanded:hover{background-color:#FEFEFE;}
+.RadMenuMW .rmRootGroup, .RadMenuMW a.rmLink, .RadMenuMW .rmGroup .rmText, .RadMenuMW .rmVertical .rmText, .RadMenuMW .rmLeftArrow, .RadMenuMW .rmRightArrow, .RadMenuMW .rmTopArrow, .RadMenuMW .rmBottomArrow, .RadMenuMW .rmIcon{background-image:url('MenuTradicional/rmSprite.png') !important;background-color:#FFFFFF;}
+.RadMenuMW .rmRootGroup, .RadMenuMW a.rmLink, .RadMenuMW .rmText, .RadMenuMW .rmLeftArrow, .RadMenuMW .rmRightArrow, .RadMenuMW .rmTopArrow, .RadMenuMW .rmBottomArrow{background-image:url('MenuTradicional/rmSprite.png') !important;}
+.RadMenuMW .rmLeftImage{width:16px;height:16px;}
+.RadMenuMW .rmGroup, .RadMenuMW .rmMultiColumn, .RadMenuMW .rmGroup .rmVertical{border:1px solid #979797 !important;background:#fff url('MenuTradicional/rmVSprite.png') repeat-y 0 0 !important;}
+.RadMenuMW .rmTopFix, .RadMenuMW .rmBottomFix, .RadMenuMW .rmRoundedCorners .rmGroup .rmItem, .RadMenuMW .rmRoundedCorners li.rmFirstGroupColumn .rmItem, .RadMenuMW .rmRoundedCorners ul.rmHorizontal .rmFirst{background-image:url('MenuTradicional/rmVSprite.png') !important;background-color:#FFFFFF;background-repeat:repeat-y !important;}
+.pesquisaTable{width:100%;}
+.pesquisaTD1{width:100%;}
+.pesquisaTD2{width:25px;}
+.pesquisaText{display:block;width:100%;height:16px;border:1px solid #5a5a5a;font-family:Arial;font-size:12px;font-style:normal;line-height:15px;}
+.pesquisaImg{display:block;width:20px;height:20px;background-image:url(Pesquisa/pesquisa.png);}
+.respostaConteudo{margin:0;width:636px;height:423px;}
+.respostaConteudo .respostaTable{width:95%;}
+.respostaConteudo .respostaTitulo{font-family:Arial, Helvetica, sans-serif;font-size:13px;font-weight:bold;color:#666666;}
+.respostaConteudo .respostaInformacoesAdicionais{font-family:Arial, Helvetica, sans-serif;font-size:12px;font-style:italic;color:#666666;line-height:125%;text-align:justify;}
+.respostaConteudo .respostaLocal{font-family:Arial, Helvetica, sans-serif;font-size:12px;color:#003399;}
+.respostaConteudo ul{list-style-type:none;margin-top:8px;margin-bottom:12px;margin-right:0px;margin-left:0px;padding:0;}
+.respostaConteudo li a{background-color:#FFFFFF;}
+.respostaConteudo li, .respostaConteudo a:hover{cursor:hand;background-color:#FFFFFF;text-decoration:none;}
+.respostaConteudo a, .resposta a:hover{cursor:hand;display:block;text-decoration:none;}
+.respostaConteudoEsquerda{background-image:url(pesquisa/dlg02.png);}
+.respostaConteudoDireita{background-image:url(pesquisa/dlg03.png);}
+.respostaConteudoTopo{background-image:url(pesquisa/dlg01.png);}
+.respostaConteudoBaixo{background-image:url(pesquisa/dlg04.png);}
+.respostaConteudoFechar{background-image:url(pesquisa/dlgFechar.png);}
+.respostaAguarde{background-image:url(pesquisa/aguarde.gif);width:150px;height:85px;}
+.txtBGportugues{height:20px;width:100%;padding-left:30px !important;background-repeat:no-repeat;background-image:url(Idiomas/background_portugues.png);}
+.txtBGingles{height:20px;width:100%;padding-left:30px !important;background-repeat:no-repeat;background-image:url(Idiomas/background_ingles.png);}
+.txtBGespanhol{height:20px;width:100%;padding-left:30px !important;background-repeat:no-repeat;background-image:url(Idiomas/background_espanhol.png);}
+.itemPortugues{width:100%;height:19px;padding-top:2px !important;background-repeat:no-repeat;background-image:url(Idiomas/bgitems_portugues.png);}
+.itemIngles{width:100%;height:19px;padding-top:2px !important;background-repeat:no-repeat;background-image:url(Idiomas/bgitems_ingles.png);}
+.itemEspanhol{height:19px;width:100%;padding-top:2px !important;background-repeat:no-repeat;background-image:url(Idiomas/bgitems_espanhol.png);}
+.itemPortugues:hover{background-repeat:no-repeat;background-image:url(Idiomas/bgitems_portugues_hover.png);}
+.itemIngles:hover{background-repeat:no-repeat;background-image:url(Idiomas/bgitems_ingles_hover.png);}
+.itemEspanhol:hover{background-repeat:no-repeat;background-image:url(Idiomas/bgitems_espanhol_hover.png);}
+.listaItem{background-image:url(Idiomas/bgitems.png);border:none !important;color:#000;cursor:pointer;z-index:9000;}
+.txtSelect{width:18px;height:19px;background-image:url(Idiomas/bgselect.png);background-repeat:no-repeat;}
+.idiomasInput{background:transparent;border:none;width:100%;cursor:pointer;}
+
+.treeViewMyWay{overflow-y:hidden;background-color:#FEFEFE;color:#000;width:100%; background-color:#eee; font-family:Arial, Verdana, Sans-serif !important; color:#fff !important;}
+.treeViewMyWay a{width: 100%; padding:12px 0 12px 15px;display:inline-block;margin-top:-6px; background-color:#9b9b9b; margin-left:-10px; font-size:16px !important; line-height:17px !important;}
+.treeViewMyWay a:hover{/*background-image:url(TreeView/treeviewmyway_hover.png);*/ background:#ddd; color:#9b9b9b;}
+.imgMais{height:17px;width:17px;background-image:url(TreeView/mais.png);background-position:center;background-repeat:no-repeat;display:inline-block;padding-right: 20px; float: right;}
+.imgMenos{height:17px;width:17px;background-image:url(TreeView/menos.png);background-position:center;background-repeat:no-repeat;display:inline-block;padding-right: 20px; float: right;}
+.imgFolha{height:9px;width:9px;background-image:none;background-position:center;background-repeat:no-repeat;padding-right:3px;display:none;}
+.treeViewMyWay table table a{background-color:transparent; color:#9b9b9b; font-size:15px !important; padding-left:15px !important;}
+.treeViewMyWay table {width:100% !important;border-bottom: 1px solid #ddd;margin-bottom: -4px;}
+.treeViewMyWay div {padding-left:0 !important;}
+
+.icone_interno_avancar_desabilitado2{background-image:url(MenuIcones/avancar_interno_dis.png);background-repeat:no-repeat;cursor:default;float:right;height:15px;width:10px;}
+.icone_interno_avancar_habilitado2{background-image:url(MenuIcones/avancar_interno.png);background-repeat:no-repeat;float:right;height:15px;width:10px;}
+.icone_interno_voltar_desabilitado2{background-image:url(MenuIcones/voltar_interno_dis.png);background-repeat:no-repeat;cursor:default;float:left;height:15px;width:10px;}
+.icone_interno_voltar_habilitado2{background-image:url(MenuIcones/voltar_interno.png);background-repeat:no-repeat;float:left;height:15px;width:10px;}
+.ssm_divareaobjeto2{height:120px;left:0px;margin-top:45px;position:absolute;top:3px;width:100%;z-index:1003;}
+.ssm_divobjeto2{cursor:pointer;color:Black;float:left;height:49px;width:199px;overflow:hidden;vertical-align:middle;}
+img2{float:left;height:40px;width:40px;margin:2px;padding:2px;}
+span.texto-curto2{line-height:42px;}
+span.texto-longo2{line-height:14px;}
+.ssm_divobjeto_over2{background-color:#FDFDFD;color:Black;opacity:.80;}
+.ssm_divmae2{-moz-user-select:none;height:100%;position:fixed;z-index:1001;width:420px;}
+.ssm_divpaginar2{height:18px;left:6px;opacity:.80;position:absolute;top:396px;z-index:1006;width:385px;}
+.ssm_divpaginar_acoes2{background-repeat:no-repeat;cursor:pointer;width:10px;}
+.ssm_divtoolbararea2{background-image:url(MenuIcones/fundo_menu.png);background-color:#FBFBFB;height:30px;left:0px;position:absolute;top:0px;width:100%;z-index:1005;}
+.ssm_divtoolbaricone2{background-position:0px 0px;background-repeat:no-repeat;cursor:pointer;float:right;margin-top:5px;margin-right:10px;}
+.ssm_divtoolbartexto2{color:Black;height:30px;float:left;font-size:10px;font-variant:normal;font-weight:bold;line-height:30px;text-align:left;text-indent:8px;vertical-align:middle;overflow:hidden;width:270px;}
+.ssm_divtransparente2{background-color:#F8F8F8;height:100%;opacity:.70;width:100%;z-index:1002;}
+.ssm_icone_avancar_habilitado2{background-image:url(MenuIcones/avancar.png);background-repeat:no-repeat;height:20px;width:20px;}
+.ssm_icone_avancar_desabilitado2{background-image:url(MenuIcones/avancar_dis.png);background-repeat:no-repeat;height:20px;width:20px;}
+.ssm_icone_inicio2{background-image:url(MenuIcones/home.png);background-repeat:no-repeat;height:20px;width:23px;}
+.ssm_icone_voltar_habilitado2{background-image:url(MenuIcones/voltar.png);background-repeat:no-repeat;height:20px;width:20px;}
+.ssm_icone_voltar_desabilitado2{background-image:url(MenuIcones/voltar_dis.png);background-repeat:no-repeat;height:20px;width:20px;}
+.ssm_icone_sair2{background-image:url(MenuIcones/sair.png);background-repeat:no-repeat;height:20px;width:24px;}
+.ssm_migalhadepao2{background-color:#FBFBFB;color:Black;cursor:pointer;font-size:10px;font-weight:bold;font-variant:normal;left:0px;line-height:15px;height:17px;opacity:.80;position:absolute;text-align:left;text-indent:4px;top:30px;vertical-align:middle;width:100%;z-index:3;}
+.ssm_divexterna_left2{background-image:url(MenuIcones/aba_menu_left.png);background-repeat:no-repeat;cursor:pointer;height:141px;right:-25px;position:absolute;top:0px;width:25px;z-index:1004;}
+.ssm_divmaecorpo_left2{height:100%;width:100%;}
+.ssm_divimagemaba{background-image:url(MenuIcones/home.png);height:20px;width:20px;}
+.popup_info_adicional{margin-top:20px;font-size:8px;}
+
+.direita{display:block;height:30px;}
+.barra_tip{height:30px;display:block;}
+
+#miniperfil{padding-top:3px; background-color:#fff; margin-top:45px;}
+#miniperfil img{display:none; width:40px !important; height:40px !important; border-radius:30px;}
+
+#AlterarFoto{display:none;}
+
+#AlterarFoto + div > div > div:first-child > div:first-child{display:none;}
+#AlterarFoto + div > div > div {padding:1px 0;}
+#AlterarFoto + div > div > div:first-child > div + div {font-size:16px !important;font-weight:bold !important;max-width: 250px;color:#446EA2 !important;}
+
+#AlterarFoto + div > div > div + div + div {display:none;}
+
+.ms-lsexp{text-align:center !important;}
+.ms-lsexp a{  background-color: rgb(179, 0, 0) !important;color: white !important;padding: 5px 10px;text-decoration: none!important;}

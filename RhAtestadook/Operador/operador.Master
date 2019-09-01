@@ -1,0 +1,196 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="~/Operador/operador.Master.cs" Inherits="CadastroTeste2.Operador.operador" EnableViewState="false" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head id="Head1" runat="server">
+    <title></title>
+    <link href="../Styles/Site.css" rel="stylesheet" type="text/css" />
+    
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../Styles/MyWay_FF.css" rel="stylesheet" />
+    <script type="text/javascript">
+        function qtde_carc() {
+
+            if (document.form.msisdn.value.length < 10) {
+                document.form.busca.disabled = true;
+            } else {
+                document.form.busca.disabled = false;
+            }
+        }
+</script>
+    
+<script type="text/javascript">
+    function MM_swapImgRestore() { //v3.0
+        var i, x, a = document.MM_sr; for (i = 0; a && i < a.length && (x = a[i]) && x.oSrc; i++) x.src = x.oSrc;
+    }
+    function MM_preloadImages() { //v3.0
+        var d = document; if (d.images) {
+            if (!d.MM_p) d.MM_p = new Array();
+            var i, j = d.MM_p.length, a = MM_preloadImages.arguments; for (i = 0; i < a.length; i++)
+                if (a[i].indexOf("#") != 0) { d.MM_p[j] = new Image; d.MM_p[j++].src = a[i]; }
+        }
+    }
+
+    function MM_findObj(n, d) { //v4.01
+        var p, i, x; if (!d) d = document; if ((p = n.indexOf("?")) > 0 && parent.frames.length) {
+            d = parent.frames[n.substring(p + 1)].document; n = n.substring(0, p);
+        }
+        if (!(x = d[n]) && d.all) x = d.all[n]; for (i = 0; !x && i < d.forms.length; i++) x = d.forms[i][n];
+        for (i = 0; !x && d.layers && i < d.layers.length; i++) x = MM_findObj(n, d.layers[i].document);
+        if (!x && d.getElementById) x = d.getElementById(n); return x;
+    }
+
+    function MM_swapImage() { //v3.0
+        var i, j = 0, x, a = MM_swapImage.arguments; document.MM_sr = new Array; for (i = 0; i < (a.length - 2); i += 3)
+            if ((x = MM_findObj(a[i])) != null) { document.MM_sr[j++] = x; if (!x.oSrc) x.oSrc = x.src; x.src = a[i + 2]; }
+    }
+</script>
+
+</head>
+<body>
+    <form id="Form1" runat="server">
+   <body onLoad="MM_preloadImages('../imagens/bt_lancaratestado1.fw.png','../imagens/bt_consulta.fw.png','../imagens/bt_cadastrar_cli.fw.png','../imagens/bt_lancamento1.fw.png','../imagens/bt_cadastrar_cli.fw.png')">
+
+<div style="width:1260px;height:1960px;position:relative;margin-left:auto;margin-right:auto;">
+<div id="divisaohorizontal0" style="position:absolute;top:0px;left:0px;width:1260px;height:1960px;">
+<div id="faixatopo" style="position:relative;top:0px;left:0px;width:1260px;height:4px;background-repeat:no-repeat;">
+<img id="imagem0" src="../imagens/faixa_topo.png" style="position:absolute;top:0px;left:0px;height:4px;width:1260px;">
+</div><div id="container" style="position:relative;top:0px;left:0px;width:1260px;height:1956px;background-repeat:no-repeat;">
+<div id="divtopo" style="position:absolute;top:0px;left:0px;width:1260px;height:1956px;">
+<div id="logoebotoes" style="position:relative;top:0px;left:0px;width:1260px;height:100px;background-repeat:no-repeat;">
+<div id="divlogobotoes" style="position:absolute;top:0px;left:0px;width:1260px;height:100px;">
+<div id="logo" style="float:left;position:relative;top:0px;left:0px;width:248px;height:100px;background-color:White;background-repeat:no-repeat;">
+<img id="imagem1" src="../imagens/logotipo.png" style="position:absolute;top:25px;left:10px;height:60px;width:238px;">
+</div>
+<div id="regiao5" style="float:left;position:relative;top:0px;left:0px;width:1012px;height:100px;background-repeat:no-repeat;">
+<div id="divdadosfuncionariobotoes" style="position:absolute;top:0px;left:0px;width:100%;height:100%;">
+<div id="regiao6" style="float:left;position:relative;top:0px;left:0px;width:70%;height:100%;background-color:White;background-repeat:no-repeat;">
+<div id="divisaovertical0" style="position:absolute;top:0px;left:0px;width:708px;height:100px;">
+<div id="regiao12" style="float:left;position:relative;top:0px;left:0px;width:290px;height:100px;background-repeat:no-repeat;">
+<span id="rotulo0" style="position:absolute;top:50px;left:195px;font-size:12px;font-family:Arial;color:#446EA2;">Bem-vindo(a)</span>
+</div>
+<div id="regiao13" style="float:left;position:relative;top:0px;left:0px;width:418px;height:100px;background-repeat:no-repeat;">
+<div id="miniperfil" style="width:100%;height:100%;"><div><img src="#" style="width: 60px; height: 83px; float: left; margin-right: 4px; border: 1px solid rgb(204, 204, 204);">
+<div id="AlterarFoto"><a href="#" onClick="#" title="Alterar minha foto">Alterar minha foto</a></div>
+<div><div><div>
+<div style="color: rgb(0, 0, 0); font-family: Arial; font-size: 11px; font-style: normal; font-weight: bold; text-decoration: none; text-transform: capitalize;">Nome</div><div style="color: rgb(0, 0, 0); font-family: Arial; font-size: 11px; font-style: normal; font-weight: normal; text-decoration: none; text-transform: capitalize;">
+    <%  %>
+    <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+    </div></div></div></div></div></div>
+</div>
+</div>
+</div>
+<div id="botoes" style="float:left;position:relative;top:0px;left:0px;width:30%;height:100%;background-color:White;background-repeat:no-repeat;"> <a href="LancarAtestOperador.aspx"><img id="imagem12" src="../imagens/bt_home.png" style="position: absolute; top: 40px; left: 200px; height: 33px; width: 33px; cursor: pointer;"></a>
+  <a href="sairoper.aspx"><img src="../imagens/bt_exit.png" style="position:absolute;top:40px;left:250px;height:33px;width:33px;cursor:pointer;" alt="Sair"></a>
+</div>
+</div>
+</div>
+</div>
+</div><div id="bannereconteudo" style="position:relative;top:0px;left:0px;width:1260px;height:1856px;background-repeat:no-repeat;">
+    
+<div id="divbannereconeudo" style="position:absolute;top:0px;left:0px;width:1260px;height:1846px;">
+<div id="containerbanner" style="position:relative;top:0px;left:0px;width:1260px;height:380px;background-repeat:no-repeat;">
+<div id="divespacobanner" style="position:absolute;top:0px;left:0px;width:1260px;height:380px;">
+<div id="espaco" style="float:left;position:relative;top:0px;left:0px;width:20px;height:380px;background-color:#D8D8D8;background-repeat:no-repeat;">
+</div>
+<div id="bannerespaco" style="float:left;position:relative;top:0px;left:0px;width:1240px;height:380px;background-repeat:no-repeat;">
+<div id="divisaovertical4" style="position:absolute;top:0px;left:0px;width:1240px;height:380px;">
+<div id="regiao14" style="float:left;position:relative;top:0px;left:0px;width:1220px;height:380px;background-repeat:no-repeat;">
+<div id="divisaohorizontal13" style="position:absolute;top:0px;left:0px;width:1220px;height:380px;">
+<div id="regiao16" style="position:relative;top:0px;left:0px;width:1220px;height:20px;background-color:#D8D8D8;background-repeat:no-repeat;">
+</div><div id="regiao17" style="position:relative;top:0px;left:0px;width:1220px;height:360px;background-repeat:no-repeat;">
+<iframe src="../imagens/bannerprincipal.fw.png" width="100%" height="100%" id="paineldeconteudo1" frameborder="0" allowtransparency="true">
+</iframe>
+</div>
+</div>
+</div><div id="regiao15" style="float:left;position:relative;top:0px;left:0px;width:20px;height:380px;background-color:#D8D8D8;background-repeat:no-repeat;">
+</div>
+</div>
+</div>
+</div>
+</div><div id="conteudomenu" style="position:relative;top:0px;left:0px;width:1260px;height:1466px;background-repeat:no-repeat;">
+<div id="divconteudomenu" style="position:absolute;top:0px;left:0px;width:1260px;height:1466px;">
+<div id="menu" style="position:relative;top:0px;left:0px;width:1260px;height:1151px;background-repeat:no-repeat;">
+<div id="divmenu" style="position:absolute;top:0px;left:0px;width:1260px;height:1151px;">
+<div id="espacomenu" style="float:left;position:relative;top:0px;left:0px;width:20px;height:1151px;background-color:#D8D8D8;background-repeat:no-repeat;">
+</div><div id="menueconteudo" style="float:left;position:relative;top:0px;left:0px;width:1240px;height:1151px;background-repeat:no-repeat;">
+<div id="divmenueconteudo" style="position:absolute;top:0px;left:0px;width:1240px;height:1151px;">
+<div id="regiao28" style="float:left;position:relative;top:0px;left:0px;width:365px;height:1151px;background-repeat:no-repeat;">
+<div id="divisaohorizontal6" style="position:absolute;top:0px;left:0px;width:365px;height:1151px;">
+<div id="regiao32" style="position:relative;top:0px;left:0px;width:365px;height:20px;background-color:#D8D8D8;background-repeat:no-repeat;">
+</div>
+<div id="regiao33" style="position:relative;top:0px;left:0px;width:365px;height:1131px;background-repeat:no-repeat;">
+<div id="divisaohorizontal7" style="position:absolute;top:0px;left:0px;width:365px;height:1131px;">
+<div id="regiao34" style="position:relative;top:0px;left:0px;width:365px;height:1111px;background-repeat:no-repeat;">
+<div id="divisaohorizontal10" style="position:absolute;top:0px;left:0px;width:365px;height:1111px;">
+<div id="regiao42" style="position:relative;top:0px;left:0px;width:365px;height:60px;background-color:White;background-repeat:no-repeat;">
+<img id="imagem4" src="../imagens/header_consultas.png" style="position:absolute;top:0px;left:0px;height:60px;width:364px;">
+</div><div id="regiao43" style="position:relative;top:0px;left:0px;width:365px;height:1051px;background-color:White;background-repeat:no-repeat;">
+ 																	
+<a href="LancarAtestOperador.aspx" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image01','','../imagens/bt_lancaratestado1.fw.png',1)"><img src="../imagens/bt_lancaratestado.fw.png" width="216" height="35" id="Image01" style="position: absolute; top: 25px; left: 25px; height: 35px; width: 216px; cursor: pointer;"/></a>
+
+<a href="consulta_oper.aspx" onClick="abrirconsulta();" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image02','','../imagens/bt_consulta.fw.png',1)"><img src="../imagens/bt_consulta1.fw.png" width="216" height="35" id="Image02" style="position: absolute; top: 85px; left: 25px; height: 35px; width: 216px; cursor: pointer;"> 
+</a>
+
+</div>
+</div>
+</div>
+<div id="regiao35" style="position:relative;top:0px;left:0px;width:365px;height:20px;background-color:#D8D8D8;background-repeat:no-repeat;">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="regiao29" style="float:left;position:relative;top:0px;left:0px;width:875px;height:1151px;background-repeat:no-repeat;">
+<div id="divisaovertical9" style="position:absolute;top:0px;left:0px;width:875px;height:1151px;">
+<div id="regiao30" style="float:left;position:relative;top:0px;left:0px;width:15px;height:1151px;background-color:#D8D8D8;background-repeat:no-repeat;">
+</div><div id="regiao31" style="float:left;position:relative;top:0px;left:0px;width:860px;height:1151px;background-repeat:no-repeat;">
+<div id="divisaohorizontal8" style="position:absolute;top:0px;left:0px;width:860px;height:1151px;">
+<div id="regiao36" style="position:relative;top:0px;left:0px;width:860px;height:20px;background-color:#D8D8D8;background-repeat:no-repeat;">
+</div><div id="regiao37" style="position:relative;top:0px;left:0px;width:860px;height:1131px;background-repeat:no-repeat;">
+<div id="divisaohorizontal9" style="position:absolute;top:0px;left:0px;width:860px;height:1131px;">
+<div id="regiao38" style="position:relative;top:0px;left:0px;width:860px;height:1111px;background-repeat:no-repeat;">
+<div id="divisaovertical10" style="position:absolute;top:0px;left:0px;width:860px;height:1111px;">	
+<div id="conteudo" style="float:left;position:relative;top:0px;left:0px;width:845px;height:1111px;background-color:White;background-repeat:no-repeat;">
+<asp:ContentPlaceHolder ID="FeaturedContent" runat="server" >
+	
+    </asp:ContentPlaceHolder>
+									
+</div><div id="regiao41" style="float:left;position:relative;top:0px;left:0px;width:15px;height:1111px;background-color:#D8D8D8;background-repeat:no-repeat;">																		</div>																		</div>
+</div>
+<div id="regiao39" style="position:relative;top:0px;left:0px;width:860px;height:20px;background-color:#D8D8D8;background-repeat:no-repeat;">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="regiao23" style="position:relative;top:0px;left:0px;width:1260px;height:315px;background-repeat:no-repeat;">
+<div id="divisaohorizontal5" style="position:absolute;top:0px;left:0px;width:1260px;height:315px;">
+<div id="regiao24" style="position:relative;top:0px;left:0px;width:1260px;height:154px;background-repeat:no-repeat;">
+<img id="imagem2" src="../imagens/rodape_1.png" style="position:absolute;top:0px;left:0px;height:154px;width:1260px;">
+</div>
+<div id="regiao25" style="position:relative;top:0px;left:0px;width:1260px;height:161px;background-repeat:no-repeat;">
+<img id="imagem3" src="../imagens/rodape_2.png" style="position:absolute;top:0px;left:0px;height:156px;width:1260px;">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+    </form>
+</body>
+</html>
